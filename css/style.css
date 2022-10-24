@@ -8,13 +8,20 @@ body {
     sans-serif;
 }
 
+.start {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
 .button {
   display: block;
   margin: auto;
   margin-top: 40vh;
   border-radius: 50px;
   --bs-btn-padding-y: 1.2rem;
-  --bs-btn-padding-x: 3rem;
+  --bs-btn-padding-x: 1.2rem;
   --bs-btn-font-size: 1.8rem;
   font-weight: bold;
 }
@@ -23,11 +30,9 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 2.3rem;
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   color: white;
-  margin: 10rem 3rem 0rem 3rem;
+  margin-bottom: 30px;
 }
 
 .sec {
@@ -50,12 +55,12 @@ a {
   text-decoration: none;
 }
 
-.social {
-  margin-left: 65px; 
+.mleft-sm {
+  margin-left: 18px; 
 }
 
-.social2 {
-  margin-right: 65px;
+.mright-sm {
+  margin-right: 18px;
 }
 .contenedor {
   height: 100vh;
@@ -64,6 +69,9 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 
 
@@ -74,8 +82,9 @@ a {
 
 .map {
   height: 300px;
-  width: 480px;
+  width: 80vw;
   display: block;
+  margin: auto;
   margin-top: 20px;
   border-radius: 10px;
 }
@@ -86,8 +95,8 @@ a {
 
 @media (max-width: 600px) {
   .galeria img {
-    width: 180px;
-    height: 180px;
+    width: 47%;
+    height: 150px;
     padding: 0.2rem;
   }
 }

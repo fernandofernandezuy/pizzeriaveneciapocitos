@@ -8,6 +8,29 @@ body {
     sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+a:hover {
+  color: white;
+
+}
+
+.fab:hover {
+  scale: 1.2;
+}
+
+.black {
+  color: black;
+}
+
+.social {
+  display: none;
+}
+
 .start {
   height: 100vh;
   display: flex;
@@ -32,7 +55,7 @@ body {
   font-size: 2.3rem;
   justify-content: center;
   color: white;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .sec {
@@ -83,11 +106,15 @@ a {
 
 .map {
   height: 300px;
-  width: 80vw;
+  width: 70vw;
   display: block;
   margin: auto;
   margin-top: 20px;
   border-radius: 10px;
+}
+
+.hola {
+  display: none;
 }
 
 .bi {
@@ -96,20 +123,34 @@ a {
 
 @media (max-width: 600px) {
   .galeria img {
-    width: 47%;
-    height: 150px;
+    width: 45%;
+    height: 170px;
     padding: 0.2rem;
   }
+
+  
 }
 @media (max-width: 400px) {
   .gallery {
     grid-template-columns: 1fr 1fr;
   }
+  
+
+  
 }
 @media (min-width: 1200px) {
   .galeria img {
     width: 400px;
     height: 400px;
     padding: 0.2rem;
+  }
+
+  .map {
+    height: 600px;
+    width: 70vw;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
   }
 }

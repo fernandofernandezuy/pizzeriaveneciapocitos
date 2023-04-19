@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alice&family=Dancing+Script&family=Montserrat&family=PT+Serif&family=Poppins:wght@200;400&display=swap");
+@import url("https://shorturl.at/eEVW5");
 
 body {
   background: rgb(255, 255, 255);
@@ -13,10 +13,8 @@ a {
   color: white;
 }
 
-
 a:hover {
   color: white;
-
 }
 
 .fab:hover {
@@ -74,13 +72,12 @@ a:hover {
   padding: 0.2rem;
 }
 
-
 a {
   text-decoration: none;
 }
 
 .mleft-sm {
-  margin-left: 18px; 
+  margin-left: 18px;
 }
 
 .mright-sm {
@@ -97,7 +94,6 @@ a {
   flex-wrap: wrap;
   align-content: space-between;
 }
-
 
 .img-thumbnail {
   border-radius: 30px;
@@ -127,16 +123,11 @@ a {
     height: 170px;
     padding: 0.2rem;
   }
-
-  
 }
 @media (max-width: 400px) {
   .gallery {
     grid-template-columns: 1fr 1fr;
   }
-  
-
-  
 }
 @media (min-width: 1200px) {
   .galeria img {
